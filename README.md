@@ -3,7 +3,7 @@ Chennai Tools – Spare Parts Website
 
 Live Website
 
-https://priyahub20.github.io/chennai-tools-website/
+papercupmachinespareparts.in
 
 About the Project
 
