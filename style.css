@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #f1dfcc;
+    color: #371f1f;
+}
+
+/* NAVBAR */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 60px;
+    background: white;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+}
+
+/* LOGO */
+.navbar h2 {
+    color: #ff7a00;
+    margin: 0;
+    font-size: 24px;
+}
+
+/* MENU CONTAINER */
+.nav-links {
+    display: flex;
+    gap: 30px;
+}
+
+/* LINKS */
+.nav-links a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+.nav-links a:hover {
+    color: #ff7a00;
+}
+
+/* HERO */
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 100px 60px;
+}
+
+.hero-text {
+    max-width: 500px;
+}
+
+.hero h1 {
+    font-size: 45px;
+}
+
+.hero p {
+    color: #575252;
+    margin-top: 10px;
+}
+
+.hero img {
+    width: 420px;
+    border-radius: 15px;
+    object-fit: cover;
+}
+
+/* BUTTON */
+.btn {
+    background: #ff7a00;
+    color: white;
+    padding: 12px 25px;
+    border-radius: 30px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 20px;
+    transition: 0.3s ease;
+    border: none;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background: white;
+    color: #ff7a00;
+    transform: scale(1.05);
+}
+
+/* SECTION */
+.section {
+    padding: 30px 20px;
+    line-height: 1.8;
+}
+
+.section h1 {
+    margin-bottom: 25px;
+    color: #ff7a00;
+}
+
+.section h2 {
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
+.section p {
+    margin-bottom: 15px;
+    color: #555;
+}
+
+.sp-top {
+    display: flex;
+    align-items: center;   
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.sp-text {
+    max-width: 500px;
+}
+
+.sp-section {
+    padding-bottom: 20px;  
+}
+
+/* GRID */
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 25px;
+    padding: 40px 60px;
+}
+
+.grid img {
+    width: 100%;
+    height: 220px;
+    object-fit: contain;  
+    background: #f9fafb;
+    border-radius: 10px;
+}
+
+/* CARD */
+.card button {
+    margin-top: 10px;
+    width: 100%;
+}
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 30px rgba(0,0,0,0.1);
+}
+
+/* CONTACT */
+.contact {
+    padding: 60px;
+}
+
+.contact p {
+    margin: 10px 0;
+    color: #111111;
+}
+
+.container {
+    max-width: 1100px;
+    margin: auto;
+}
+
+/* WHATSAPP */
+.whatsapp {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: #25D366;
+    padding: 12px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+
+.whatsapp:hover {
+    transform: scale(1.1);
+}
+
+/* CONTAINER */
+.container {
+    max-width: 1100px;
+    margin: auto;
+}
+
+/* HERO IMAGE */
+.hero-img {
+    width: 400px;
+    border-radius: 15px;
+}
+
+/* HISTORY */
+.history {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.history-text {
+    max-width: 500px;
+}
+
+.history-img {
+    width: 400px;
+    border-radius: 15px;
+}
+
+/* LIGHT BACKGROUND */
+.bg-light {
+    background: #f3f4f6;
+}
+
+/* BUTTON HOVER UPGRADE */
+.btn:hover {
+    transform: scale(1.07);
+    background: #e66a00;
+}
+
+/* NAVBAR HOVER */
+.navbar a:hover {
+    color: #ff7a00;
+}
+
+/* RESPONSIVE */
+@media(max-width: 768px) {
+    .hero, .history {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-img, .history-img {
+        width: 100%;
+    }
+}
+
+
